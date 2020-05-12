@@ -1,4 +1,6 @@
-### *class* CsvTable
+# Csv table class
+
+## *class* CsvTable
 Helps to handle .csv files data and its processing.
 
 A csv table is initialised using:
