@@ -110,11 +110,13 @@
                 <h1 id="fasta-map-class">Fasta map class</h1>
 <ul>
 <li>At first we create a named tuple that will contain the sample information needed for both sorting and filtering.</li>
-<li>We go through the CSV table once to create a dictionary as a key we will have the region and as a value a list where we will add those values registered in the named tuple.</li>
-<li>When we already have the dictionary, we pass the list to the function get_average_row that will return the sample line that has the average value in the samples of each region.</li>
+<li>We go through the CSV table once to create a dictionary as a key we will have the region and as a value a list where 
+we will add those values registered in the named tuple.</li>
+<li>When we already have the dictionary, we pass the list to the function get_average_row that will return the sample 
+line that has the average value in the samples of each region.</li>
 <li>Finally the list comprehension will filter the csv with our samples.</li>
 </ul>
-<h3 id="class-fastamap"><em>class</em> FastaMap</h3>
+<h2 id="class-fastamap"><em>class</em> FastaMap</h2>
 <p>Represents a Map that stores RNA codes.</p>
 <p>A fasta map is initialised using:</p>
 <pre><code>fasta_map = FastaMap(path_file) # file_path: The path to the .fasta file 
